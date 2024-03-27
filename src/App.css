@@ -1,0 +1,54 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #1d1d1d;
+  scroll-behavior: smooth;
+} 
+
+
+.common-padding{
+    padding: calc(100px + 2rem) 10rem 0 10rem;
+}
+
+.common-h2{
+    font-size: 54px !important;
+    font-weight: 600 !important;
+    line-height: 143.023% !important;
+    text-transform: capitalize !important;
+    margin-bottom: 2rem !important;
+}
+
+/* For screens below 500px */
+@media screen and (max-width: 500px){
+    .common-padding{
+        padding: calc(100px + 2rem) 2rem 0 2rem;
+    }
+    .common-h2{
+        font-size: 28px !important;
+    }
+}
+
+/* For screens below 900px */
+@media screen and (max-width: 900px){
+    .common-padding{
+        padding: calc(100px + 2rem) 3rem 0 3rem;
+    }
+    .common-h2{
+        font-size: 32px !important;
+    }
+}
+
+/* For screens below 1100px */
+@media screen and (max-width: 1100px){
+    .common-padding{
+        padding: calc(100px + 2rem) 5rem 0 5rem;
+    }
+}
+
+/* For screens below 1375px */
+@media screen and (max-width: 1375px){
+    .common-padding{
+        padding: calc(100px + 2rem) 8rem 0 8rem;
+    }
+}

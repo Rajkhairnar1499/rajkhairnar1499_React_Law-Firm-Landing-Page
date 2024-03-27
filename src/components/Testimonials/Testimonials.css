@@ -1,0 +1,16 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  width: 100vw;
+  position: relative;
+}
+
+.testimonialsHead {
+  margin: 1rem 0;
+}
+
+.testimonialsHead h2 {
+  display: flex;
+  flex-direction: column;
+}

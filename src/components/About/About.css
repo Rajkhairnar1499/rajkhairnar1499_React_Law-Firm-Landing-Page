@@ -1,0 +1,145 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.aboutIntro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5rem 0;
+}
+.aboutIntro h2 {
+  width: 40%;
+}
+.whyChooseUs {
+  padding-top: 2rem;
+}
+.introPartition {
+  height: 170px;
+  width: 0;
+  display: block;
+  border-left: 2px solid #6a6a6a;
+}
+.criminalLawyer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.criminalLawyer h3 {
+  font-size: 32px;
+}
+.criminalLawyer p {
+  font-size: 16px;
+  opacity: 0.3;
+  margin-top: 1rem;
+}
+
+.whyChooseUs h2 {
+  width: 100%;
+  text-align: center;
+}
+.whyChooseUsCard-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.whyChooseUsCard {
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 250ms;
+}
+.whyChooseUsCard:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.iconContainer {
+  width: 101px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardHead {
+  font-size: 24px;
+}
+.cardDesc {
+  font-size: 14px;
+  opacity: 0.3;
+}
+.cardButton {
+  background-color: var(--color-primary);
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 54px;
+  color: #000;
+}
+/* For screens below 600px */
+@media screen and (max-width: 600px) {
+  .aboutIntro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  .aboutIntro > * {
+    text-align: center;
+  }
+  .introPartition {
+    display: none;
+  }
+  .criminalLawyer {
+    padding-top: 2rem;
+  }
+}
+
+/* For screens below 775px */
+@media screen and (max-width: 775px) {
+  .whyChooseUsCard-wrapper {
+    flex-direction: column;
+  }
+  .whyChooseUsCard {
+    width: 100%;
+  }
+}
+
+/* For screens below 900px */
+@media screen and (max-width: 900px) {
+  .criminalLawyer h3 {
+    font-size: 20px;
+  }
+  .criminalLawyer p {
+    font-size: 14px;
+  }
+  .aboutIntro h2 {
+    width: 45%;
+  }
+}
+
+/* For screens below 1000px */
+@media screen and (max-width: 1000px) {
+  .iconContainer {
+    width: 80px;
+  }
+  .iconContainer img {
+    max-width: 50px;
+  }
+  .cardHead {
+    font-size: 20px;
+  }
+  .cardDesc {
+    font-size: 12px;
+  }
+}
