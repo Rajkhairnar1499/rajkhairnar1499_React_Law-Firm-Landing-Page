@@ -1,6 +1,6 @@
 # Welcome to My IgStudio Website
 
-IgStudio is the one stop solution to lead you the way to justice.
+## IgStudio is the one stop solution to lead you the way to justice.
 
 This website is made the using the [Figma](https://www.figma.com/file/rAW0Z8aB5upV8dhEeLUaN5/Law-firm-Landing-Page-(Community)?type=design&node-id=1-272&mode=design) file.
 This project mainly focuses on building the Landing Page of the Law-Firm: IgStudio 
